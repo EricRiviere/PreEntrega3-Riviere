@@ -1,0 +1,40 @@
+@media screen and (min-width: 768px) {
+  .section h2 {
+    margin-top: 20vh;
+  }
+  .section-ns {
+    height: 60vh;
+  }
+  .section-man {
+    height: 60vh;
+  }
+  .section-woman {
+    height: 60vh;
+  }
+  .section-accessories {
+    height: 60vh;
+  }
+  .section-contact h2 {
+    margin-top: 15vh;
+  }
+  .section-contact {
+    height: 50vh;
+  }
+  .carousel {
+    display: none;
+    visibility: hidden;
+  }
+
+  /*PRODUCT SCROLL*/
+
+  .scroll-img {
+    max-height: 250vh;
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-width: 768px) {
+  .scroll {
+    display: none;
+    visibility: hidden;
+  }
+}

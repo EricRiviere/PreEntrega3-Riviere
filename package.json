@@ -1,0 +1,19 @@
+{
+  "name": "segunda-preentrega-versison-bs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricRiviere/PreEntrega2Riviere.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricRiviere/PreEntrega2Riviere/issues"
+  },
+  "homepage": "https://github.com/EricRiviere/PreEntrega2Riviere#readme"
+}

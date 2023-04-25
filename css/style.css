@@ -1,0 +1,147 @@
+/*SECTIONS*/
+.section h2 {
+  color: white;
+  font-size: 10vw;
+  opacity: 0.5;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: 10vh;
+}
+.section a {
+  text-decoration: none;
+}
+
+.section-ns {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url(../images/bannerNS.avif);
+  background-position: top right;
+}
+
+.section-man {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url(../images/bannerMan.webp);
+  background-position: top right;
+}
+
+.section-woman {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url(../images/bannerWoman.avif);
+  background-position: top center;
+}
+
+.section-accessories {
+  height: 30vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-image: url(../images/bannerAcc.avif);
+  background-position: center;
+}
+
+.section-contact {
+  height: 25vh;
+  text-align: center;
+}
+.section-contact h2 {
+  color: white;
+  font-size: 10vw;
+  opacity: 0.5;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-top: 10vh;
+}
+.section-contact a {
+  text-decoration: none;
+}
+
+/*GALLERY*/
+.gallery img {
+  width: 100%;
+  height: 100%;
+}
+
+/*IFRAME*/
+.iframe-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+}
+
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/*FOOTER*/
+.footer-top {
+  line-height: 10vh;
+}
+.footer-top a {
+  text-decoration: none;
+  color: black;
+}
+.footer-top a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.footer-bottom {
+  background-color: black;
+  color: white;
+  font-size: smaller;
+  line-height: 3vh !important;
+}
+
+@media screen and (min-width: 768px) {
+  .section h2 {
+    margin-top: 20vh;
+  }
+  .section-ns {
+    height: 60vh;
+  }
+  .section-man {
+    height: 60vh;
+  }
+  .section-woman {
+    height: 60vh;
+  }
+  .section-accessories {
+    height: 60vh;
+  }
+  .section-contact h2 {
+    margin-top: 15vh;
+  }
+  .section-contact {
+    height: 50vh;
+  }
+  .carousel {
+    display: none;
+    visibility: hidden;
+  }
+  /*PRODUCT SCROLL*/
+  .scroll-img {
+    max-height: 250vh;
+    overflow-y: scroll;
+  }
+}
+@media screen and (max-width: 768px) {
+  .scroll {
+    display: none;
+    visibility: hidden;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

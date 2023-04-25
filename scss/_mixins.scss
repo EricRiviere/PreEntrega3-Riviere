@@ -1,0 +1,54 @@
+@mixin backgroundM(
+  $height: 30vh,
+  $bkgrep: no-repeat,
+  $bkgsz: cover,
+  $textal: center
+) {
+  height: $height;
+  background-repeat: $bkgrep;
+  background-size: $bkgsz;
+  text-align: $textal;
+}
+
+@mixin transparentTitle(
+  $color: white,
+  $fontSize: 10vw,
+  $opacity: 0.5,
+  $textShadow: (
+    -1px 0 black,
+    0 1px black,
+    1px 0 black,
+    0 -1px black,
+  )
+) {
+  color: $color;
+  font-size: $fontSize;
+  opacity: $opacity;
+  text-shadow: $textShadow;
+}
+
+@mixin iframeContainer
+  ($position: relative, $overflow: hidden, $width: 100%, $padding-top: 56.25%) {
+  position: $position;
+  overflow: $overflow;
+  width: $width;
+  padding-top: $padding-top;
+}
+
+@mixin responsiveIframe(
+  $position: absolute,
+  $top: 0,
+  $left: 0,
+  $bottom: 0,
+  $right: 0,
+  $width: 100%,
+  $height: 100%
+) {
+  position: $position;
+  top: $top;
+  left: $left;
+  bottom: $bottom;
+  right: $right;
+  width: $width;
+  height: $height;
+}
