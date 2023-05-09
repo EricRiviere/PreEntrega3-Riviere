@@ -11,6 +11,11 @@
   a {
     text-decoration: none;
   }
+  p {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-size: larger;
+  }
 }
 
 .section-ns {
@@ -35,6 +40,12 @@
   @include backgroundM();
   background-image: url(../images/bannerAcc.avif);
   background-position: $CBkd;
+}
+
+.section-error {
+  @include backgroundM();
+  background-image: url(../images/error-img.webp);
+  background-position: $BRBkd;
 }
 
 .section-contact {
