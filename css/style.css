@@ -107,7 +107,7 @@
   text-decoration: none;
   color: black;
 }
-.footer-top a:visited {
+.footer-top a a:visited {
   text-decoration: none;
   color: black;
 }
@@ -123,15 +123,9 @@
   .section h2 {
     margin-top: 20vh;
   }
-  .section-ns {
-    height: 60vh;
-  }
-  .section-man {
-    height: 60vh;
-  }
-  .section-woman {
-    height: 60vh;
-  }
+  .section-ns,
+  .section-man,
+  .section-woman,
   .section-accessories {
     height: 60vh;
   }
