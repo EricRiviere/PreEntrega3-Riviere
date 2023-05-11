@@ -89,7 +89,10 @@
     <div class="container">
       <div class="row row-gap-3">
         <div class="col-md-6">
-          <form>
+          <form
+            action="https://formsubmit.co/eric.riviere.ponsa@gmail.com"
+            method="POST"
+          >
             <div class="mb-3">
               <label for="name" class="form-label">First Name</label>
               <input
@@ -97,6 +100,8 @@
                 class="form-control"
                 id="name"
                 aria-describedby="Name"
+                name="FirstName"
+                required
               />
             </div>
             <div class="mb-3">
@@ -106,6 +111,8 @@
                 class="form-control"
                 id="last-name"
                 aria-describedby="Last Name"
+                name="LastName"
+                required
               />
             </div>
             <div class="mb-3">
@@ -115,6 +122,8 @@
                 class="form-control"
                 id="email"
                 aria-describedby="Email"
+                name="Email"
+                required
               />
             </div>
             <div class="mb-3">
@@ -124,6 +133,8 @@
                 class="form-control"
                 id="tel"
                 aria-describedby="Telephone"
+                name="Phone"
+                required
               />
             </div>
             <fieldset class="row mb-3">
@@ -136,6 +147,7 @@
                     name="gender"
                     id="gender-man"
                     value="Man"
+                    name="GenderMan"
                   />
                   <label class="form-check-label" for="gender-man"> Man </label>
                 </div>
@@ -146,6 +158,7 @@
                     name="gender"
                     id="gender-woman"
                     value="Woman"
+                    name="GenderWoman"
                   />
                   <label class="form-check-label" for="gender-woman">
                     Woman
@@ -158,6 +171,7 @@
                     name="gender"
                     id="gender-ns"
                     value="NS"
+                    name="NoGender"
                   />
                   <label class="form-check-label" for="gender-ns">
                     Other
@@ -167,7 +181,12 @@
             </fieldset>
             <div class="mb-3">
               <label for="message" class="form-label">Message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="3"
+                name="Message"
+              ></textarea>
             </div>
             <div class="mb-3">
               <label for="form-check-label" class="form-label"
@@ -175,8 +194,8 @@
               >
               <select class="form-select" aria-label="client">
                 <option selected>Select one option</option>
-                <option value="client">Yes</option>
-                <option value="not-client">No</option>
+                <option value="client" name="Client">Yes</option>
+                <option value="not-client" name="NotClient">No</option>
               </select>
             </div>
             <div class="mb-3 form-check">
